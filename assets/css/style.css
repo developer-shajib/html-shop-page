@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Dosis', sans-serif;
+
+}
+img{
+    max-width: 100%;
+}
+.shop-header{
+    background-color: rgb(54, 53, 53);
+    padding: 6px 0px;
+}
+.shop-header img {
+    height: 78px;
+}
+.shop-header ul {
+    margin-left: 0px;
+    padding-left: 0px;
+    margin-top: 22px;
+}
+.shop-header ul li {
+    display: inline-block;
+}
+.shop-header ul li a {
+    color: red;
+    text-decoration: none;
+    font-size: 21px;
+    padding: 12px 25px;
+    transition: .3s;
+
+}
+.shop-header ul li:hover a {
+    color: red;
+    letter-spacing: 2px;
+    background-color: rgb(110, 108, 108);
+}
+
+.category ul{
+    padding-left: 0;
+}
+.category ul li{
+    list-style: none;
+}
+.category ul li a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 3px 0px;
+}
+
+.widget-title{
+    font-size: 20px;
+    font-weight: bold;
+}
+.shop_area {
+    background: #f6f6f6;
+}
+.single_view h2 {
+    font-size: 33px;
+    font-weight: 500;
+}
+.single_view span {
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 0px;
+}
+.desc p{
+    margin-top: 10px;
+    font-weight: 400;
+    margin-bottom: 32px;
+}
+
+.dash-menu ul{
+    padding-left: 0px;
+
+}
+.dash-menu ul li{
+    list-style: none;
+    display: block;
+}
+.dash-menu ul li a{
+    display: block;
+    color: rgb(65, 64, 64);
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 20px;
+}
