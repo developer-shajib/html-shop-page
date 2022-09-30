@@ -79,10 +79,18 @@ img{
     list-style: none;
     display: block;
 }
-.dash-menu ul li a{
+.dash-menu ul li a {
     display: block;
-    color: rgb(65, 64, 64);
+    color: rgb(255 255 255);
     padding: 10px 15px;
     text-decoration: none;
     font-size: 20px;
+    transition: .3s;
+}
+.dash-menu ul li:hover a {
+    color: rgb(202, 199, 199);
+    letter-spacing: 1px;
+}
+.dash-menu {
+    background: #4a4a4a;
 }
